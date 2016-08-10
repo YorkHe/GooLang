@@ -12,7 +12,8 @@ $(function(){
             "简体中文" : "lang_zh-CN",
             "繁體中文" : "lang_zh-TW",
             "日本語" : "lang_ja",
-            "English": "lang_en"
+            "English": "lang_en",
+            "Français": "lang_fr"
         };
 
         if (dict[language] != undefined)
