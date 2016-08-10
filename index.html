@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GooLang - Search Google with specific language results.</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <h1>GooLang</h1>
+    <p>Search Google with specific language results.</p>
+
+    <div class="input-group">
+        <div class="input-group-btn">
+            <button type="button" class="btn btn-default dropdown-toggle" id="language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                选择语言
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">简体中文</a></li>
+                <li><a href="#">繁體中文</a></li>
+                <li><a href="#">日本語</a></li>
+                <li><a href="#">English</a></li>
+            </ul>
+        </div>
+        <input type="text" class="form-control" id="search_content" placeholder="Search!">
+        <span class="input-group-btn">
+            <button class="btn btn-default" id="btn-search" type="button">Go!</button>
+        </span>
+    </div>
+
+
+
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
